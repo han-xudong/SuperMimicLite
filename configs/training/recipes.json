@@ -1,0 +1,18 @@
+{
+  "P-L": {
+    "method": "ppo",
+    "data": "L"
+  },
+  "P-M": {
+    "method": "ppo",
+    "data": "M"
+  },
+  "S-L": {
+    "method": "supermimic",
+    "data": "L"
+  },
+  "S-M": {
+    "method": "supermimic",
+    "data": "M"
+  }
+}

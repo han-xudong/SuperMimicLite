@@ -1,0 +1,103 @@
+{
+  "repo_id": "han-xudong/SuperMimicLite",
+  "repo_type": "dataset",
+  "admission": {
+    "path": "training-admission.json.gz",
+    "bytes": 7199684,
+    "sha256": "d3c14b2a7cd413645ab026f9043c0fd66c291b8dcc973783c09b10685aa83f78"
+  },
+  "training_sources": {
+    "public/any4hdmi-g1-lafan": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-lafan",
+      "repo_type": "dataset",
+      "revision": "7937b18a2cbe8a2d354a57524f25c7799134cf15"
+    },
+    "public/any4hdmi-g1-100style": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-100style",
+      "repo_type": "dataset",
+      "revision": "bb3cd09a89dd804a1d8c383690161f594416ecb2"
+    },
+    "public/any4hdmi-g1-ground-motions": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-ground-motions",
+      "repo_type": "dataset",
+      "revision": "9d84f1ad70feafd641062e30e638889c508fc6d7"
+    },
+    "public/any4hdmi-g1-amass-hard": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-amass-hard",
+      "repo_type": "dataset",
+      "revision": "e65525c67c59625a20d66f4aee9d43889934ae5b"
+    },
+    "public/any4hdmi-g1-extreme-motions": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-extreme-motions",
+      "repo_type": "dataset",
+      "revision": "d36829cdfb74419436be8a0363f0d10977786eae"
+    },
+    "public/any4hdmi-g1-extreme-demo": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-extreme-demo",
+      "repo_type": "dataset",
+      "revision": "1187479031cbead05a0022f3055215cd93f4b6c1"
+    },
+    "public/any4hdmi-g1-high-dynamic-sequences": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-high-dynamic-sequences",
+      "repo_type": "dataset",
+      "revision": "1246f96a2c426002b2aa018abf3c3e34ba8b67a7"
+    },
+    "public/any4hdmi-g1-real-pico": {
+      "repo_id": "elijahgalahad/any4hdmi-g1-real-pico",
+      "repo_type": "dataset",
+      "revision": "f4b3402328418da5c9ea18012da363e3396b14c1"
+    },
+    "sonic": {
+      "url": "https://huggingface.co/datasets/bones-studio/seed",
+      "format": "licensed G1 CSV; convert locally"
+    }
+  },
+  "metadata": {
+    "sonic/manifest.json": {
+      "path": "metadata/sonic/manifest.json",
+      "bytes": 1761,
+      "sha256": "27f5cedce53dcc62ee2c888af71bfba175a6ab2cd577bcc0c5bbb16382f73edf"
+    },
+    "sonic/limmt/passed/filenames.txt": {
+      "path": "metadata/sonic/limmt/passed/filenames.txt",
+      "bytes": 5775616,
+      "sha256": "6f718381bed21e9c2f0539f3c651cf8fb073cde34c87ed5dfdafc6a945077e15"
+    },
+    "public/any4hdmi-g1-amass-hard/views/train_dynamic.txt": {
+      "path": "training/public/any4hdmi-g1-amass-hard/views/train_dynamic.txt",
+      "bytes": 382,
+      "sha256": "163bd76f9278524f092944ddaa54f6ca52a24c1a5d0391b3c9fd3f22de5d1213"
+    },
+    "sonic/views/strict_one_leg.txt": {
+      "path": "metadata/sonic/views/strict_one_leg.txt",
+      "bytes": 27112,
+      "sha256": "4e20305064741742ae8a5ed4b6b59bdb454f389fcbc7987ec39d9453d0792432"
+    }
+  },
+  "revision": "0be13b122e68a458e7b57da037a35dc61a9ea5aa",
+  "hosted_training": {
+    "public/any4hdmi-g1-lafan": "training/public/any4hdmi-g1-lafan",
+    "public/any4hdmi-g1-100style": "training/public/any4hdmi-g1-100style",
+    "public/any4hdmi-g1-ground-motions": "training/public/any4hdmi-g1-ground-motions",
+    "public/any4hdmi-g1-amass-hard": "training/public/any4hdmi-g1-amass-hard",
+    "public/any4hdmi-g1-extreme-motions": "training/public/any4hdmi-g1-extreme-motions",
+    "public/any4hdmi-g1-extreme-demo": "training/public/any4hdmi-g1-extreme-demo",
+    "public/any4hdmi-g1-real-pico": "training/public/any4hdmi-g1-real-pico"
+  },
+  "excluded_motion_prefixes": [
+    "sonic/",
+    "public/any4hdmi-g1-extreme-demo/motions/sonic/",
+    "public/any4hdmi-g1-high-dynamic-sequences/"
+  ],
+  "hosted_evaluation": {
+    "locomotion": "evaluation/locomotion",
+    "manipulation": "evaluation/manipulation",
+    "ground": "evaluation/ground",
+    "dance": "evaluation/dance"
+  },
+  "evaluation_sources": {
+    "path": "evaluation/sources.json",
+    "bytes": 657,
+    "sha256": "180918495a4bac22ded41f2fa298647086eb4543551308b5b1339d6121709f92"
+  }
+}

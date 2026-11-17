@@ -1,0 +1,48 @@
+{
+  "P-L": {
+    "seed": 0,
+    "iterations": 32000,
+    "num_envs": 8192,
+    "simulation_frames": 8388608000,
+    "optimizer_steps": {
+      "actor": 1280000,
+      "critic": 1280000
+    },
+    "wall_seconds": 77598.53233027458
+  },
+  "P-M": {
+    "seed": 0,
+    "iterations": 32000,
+    "num_envs": 8192,
+    "simulation_frames": 8388608000,
+    "optimizer_steps": {
+      "actor": 1280000,
+      "critic": 1280000
+    },
+    "wall_seconds": 84000.35308337212
+  },
+  "S-L": {
+    "seed": 0,
+    "iterations": 32000,
+    "num_envs": 4096,
+    "simulation_frames": 327942144,
+    "optimizer_steps": {
+      "wm": 320000,
+      "pi": 31500,
+      "critic": 630000
+    },
+    "wall_seconds": 15966.55129146576
+  },
+  "S-M": {
+    "seed": 0,
+    "iterations": 32000,
+    "num_envs": 4096,
+    "simulation_frames": 327942144,
+    "optimizer_steps": {
+      "wm": 320000,
+      "pi": 31500,
+      "critic": 630000
+    },
+    "wall_seconds": 16012.296653270721
+  }
+}

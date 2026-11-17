@@ -1,0 +1,60 @@
+{
+  "windowed_next_window_device": "current",
+  "windowed_pin_window_load": true,
+  "motion_cfgs": {
+    "lafan": {
+      "path": "public/any4hdmi-g1-lafan",
+      "weight": 0.2,
+      "full_motion": true
+    },
+    "style100": {
+      "path": "public/any4hdmi-g1-100style",
+      "weight": 0.2,
+      "full_motion": true
+    },
+    "sonic": {
+      "path": "sonic",
+      "filenames_path": "limmt/passed/filenames.txt",
+      "weight": 0.3,
+      "full_motion": true,
+      "shard": true
+    },
+    "ground_motion": {
+      "path": "public/any4hdmi-g1-ground-motions",
+      "weight": 0.05,
+      "full_motion": true
+    },
+    "amass_hard": {
+      "path": "public/any4hdmi-g1-amass-hard",
+      "filenames_path": "views/train_dynamic.txt",
+      "weight": 0.025,
+      "full_motion": true
+    },
+    "extreme": {
+      "path": "public/any4hdmi-g1-extreme-motions",
+      "weight": 0.025,
+      "full_motion": true
+    },
+    "extreme_demo": {
+      "path": "public/any4hdmi-g1-extreme-demo",
+      "weight": 0.025,
+      "full_motion": true
+    },
+    "high_dynamic_sequences": {
+      "path": "public/any4hdmi-g1-high-dynamic-sequences",
+      "weight": 0.025,
+      "full_motion": true
+    },
+    "sonic_strict_one_leg": {
+      "path": "sonic",
+      "filenames_path": "views/strict_one_leg.txt",
+      "weight": 0.1,
+      "full_motion": true
+    },
+    "real_pico": {
+      "path": "public/any4hdmi-g1-real-pico",
+      "weight": 0.05,
+      "full_motion": true
+    }
+  }
+}

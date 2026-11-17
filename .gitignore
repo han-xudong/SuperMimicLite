@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+third_party/
+data/
+models/
+checkpoints/
+outputs/
+.superpowers/
+*.egg-info/
+.env
+.env.*
+
+# Keep weights, raw data and full videos out of Git.
+*.onnx
+*.pt
+*.safetensors
+*.npz
+*.mp4
+*.gif
+!docs/assets/comparison.gif
+*.tar
+*.tar.gz

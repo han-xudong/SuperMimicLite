@@ -1,0 +1,55 @@
+{
+  "repo_id": "han-xudong/SuperMimicLite",
+  "repo_type": "model",
+  "revision": "5e30c6f5b86ff3f1b6e4258d93b08a8937b7e710",
+  "files": [
+    {
+      "name": "P-L.onnx",
+      "directory": "models",
+      "bytes": 26805195,
+      "sha256": "83f0ff40d7b7aedd574e34a3f6931ad27b4da2e0f20a0ca397e48b5345b75581"
+    },
+    {
+      "name": "P-M.onnx",
+      "directory": "models",
+      "bytes": 26805195,
+      "sha256": "70e0fc4267c37bab6d9975847e80f87083245581f7b6beab7be9adf44754c658"
+    },
+    {
+      "name": "S-L.onnx",
+      "directory": "models",
+      "bytes": 36478169,
+      "sha256": "50aa35ad7512dcf925b28a5716949df1e0bb26167f30d119cfc0760d0075bd8a"
+    },
+    {
+      "name": "S-M.onnx",
+      "directory": "models",
+      "bytes": 36478169,
+      "sha256": "937ff97d1b836adee198ac27b383f9bf2e4d58b7850320939792c036ea905ca2"
+    },
+    {
+      "name": "P-L.pt",
+      "directory": "checkpoints",
+      "bytes": 35803351,
+      "sha256": "a42cdd0645aa1b09a572e7747529ca3ff657a0c07f9e9190fb404646a07121cd"
+    },
+    {
+      "name": "P-M.pt",
+      "directory": "checkpoints",
+      "bytes": 35810903,
+      "sha256": "5ba7c80f7dd767080dd0cc943004d29607e645d0c5ca54bbcb5c3e39133d0386"
+    },
+    {
+      "name": "S-L.pt",
+      "directory": "checkpoints",
+      "bytes": 71781957,
+      "sha256": "956fe99a113d3fc41bb1be6bb7910e570822cafaee82ffee75fe3020005f9c57"
+    },
+    {
+      "name": "S-M.pt",
+      "directory": "checkpoints",
+      "bytes": 71781957,
+      "sha256": "74702cafe3d86a39d0745af92a353c70ae158cad79af9275d4f3beda68cf222d"
+    }
+  ]
+}

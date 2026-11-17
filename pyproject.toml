@@ -1,0 +1,30 @@
+[project]
+name = "supermimiclite"
+version = "0.1.0"
+description = "G1 motion tracking with MimicLite and Uni-SuperMimic"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "LICENSES/*"]
+requires-python = "==3.10.*"
+dependencies = [
+  "numpy==1.26.4", "scipy==1.15.3", "mujoco==3.10.0",
+  "onnxruntime==1.23.2", "onnx==1.17.0", "pyyaml==6.0.3",
+  "huggingface-hub==1.21.0", "torch==2.13.0", "tensordict==0.13.0",
+  "loguru==0.7.3", "tyro==1.0.15", "mjviser==0.0.14",
+  "sshkeyboard==2.3.1", "pyzmq==27.1.0", "tqdm==4.68.3",
+  "any4hdmi @ git+https://github.com/EGalahad/any4hdmi.git@5d0ae1915c904c64f2480a055aa1693523b9e4b4",
+  "mjhub @ git+https://github.com/EGalahad/mjhub.git@742fb4562803e7e124fcd1ceb73f58c66e382a51",
+]
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+[tool.uv]
+package = false
+override-dependencies = ["mjhub @ git+https://github.com/EGalahad/mjhub.git@742fb4562803e7e124fcd1ceb73f58c66e382a51"]
+[tool.uv.sources]
+torch = {index = "pytorch-cpu"}
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["evaluation", "scripts"]

@@ -1,0 +1,22 @@
+{
+  "active-adaptation": {
+    "url": "https://github.com/Agent-3154/active-adaptation.git",
+    "commit": "b6a6b3f101344dfe8d5bdd6a06e921f4333127eb"
+  },
+  "mimic-lite": {
+    "url": "https://github.com/EGalahad/mimic-lite.git",
+    "commit": "94dd77a827c2b28d6b69efc3291e392e0f07c906"
+  },
+  "sim2real": {
+    "url": "https://github.com/EGalahad/sim2real.git",
+    "commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8"
+  },
+  "training_asset": {
+    "repo_id": "elijahgalahad/g1_xmls",
+    "revision": "a57ffbdfc0a9379a781f37f4513a82b92ea93591"
+  },
+  "evaluation_asset": {
+    "repo_id": "elijahgalahad/g1_xmls",
+    "revision": "1c1d082f299126b9272e81c04121ff347c97fa8f"
+  }
+}
